@@ -28,7 +28,7 @@ public class BackendApplication extends SpringBootServletInitializer implements 
 	private PasswordEncoder passwordEncoder;
 	public void run(String... args) throws Exception {
 		
-		log.info("HOLA ESTO ES UNA PRUEBAAAAAAAAAA");
+		log.info("Version con dialecto 5.7");
 	}
 }
 
